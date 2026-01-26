@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-trtools"
+description = "TensorRT Tools for ComfyUI"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/sugarkwork/comfyui-trtools"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "sugarknight"
+DisplayName = "comfyui-trtools"
+Icon = ""

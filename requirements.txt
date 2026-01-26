@@ -1,0 +1,6 @@
+--extra-index-url https://pypi.nvidia.com
+requests
+onnx
+onnxscript
+spandrel
+tensorrt-cu12==10.14.1.48.post1
