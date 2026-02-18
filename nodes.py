@@ -923,8 +923,8 @@ class TRTagger:
                 res = ", ".join(item[0] for item in all_tags)
                 final_tags_list.append(res)
                 
-            return (", ".join(final_tags_list),) 
-            
+            return (", ".join(final_tags_list).replace('(', '\\(').replace(')', '\\)'),) 
+
         finally:
             pass
 
